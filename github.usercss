@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Fix GH's shit decisions
+@namespace      github.com/lunarwatcher/userstyles
+@version        1.0.0
+@description    Fix GH's shit decisions
+@author         Olivia
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+    .muted-link {
+        color: #fc1ced !important;
+    }
+}
