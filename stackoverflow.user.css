@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           Fix SO's fonts
+@namespace      github.com/lunarwatcher/userstyles
+@version        1.0.0
+@description    Fix SO's fonts
+@author         Olivia
+==/UserStyle== */
 @-moz-document domain("stackoverflow.com"), domain("stackexchange.com"), domain("askubuntu.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackapps.com"), domain("mathoverflow.net") {
     body {
         --ff-sans:  Ubuntu, /* Prefer Ubuntu */
