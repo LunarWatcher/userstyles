@@ -1,0 +1,28 @@
+@-moz-document domain("stackoverflow.com"), domain("stackexchange.com"), domain("askubuntu.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackapps.com"), domain("mathoverflow.net") {
+    body {
+        --ff-sans:  Ubuntu, /* Prefer Ubuntu */
+                    Roboto, /* fall back to Roboto on Android */
+                    Cambria, /* Fall back to Cambria on Windows */
+                    sans-serif;
+
+        --ff-mono: "SauceCodePro Nerd Font", /* Prefer SauceCode */
+            "Source Code Pro for Powerline", /* Fall back to Powerline */
+            "Source Code Pro", /* Fall back to Source Code Pro */
+            "FiraCode Nerd Font", /* Fall back to Fira Code Nerd Font */
+            "Fira Code", /* Fall back to regular Fira */
+            /* And then there's ye ole fucking standard crap */
+            "Ubuntu Mono", /* Fall back to Ubuntu mono */
+            "Roboto Mono", /* Or roboto */
+            "Liberation Mono", /* General Linux */
+            Consolas, /* Win10 fallback */
+            monospace, sans-serif; /* And finish with this crap */
+    }
+
+    code, .s-prose code, pre.s-code-block, textarea.wmd-input, textarea#wmd-input, .full-diff .content {
+        font-family: var(--ff-mono);
+    }
+
+    .top-bar, .topbar-dialog, #user-menu, .topbar-dialog .header h3 a, .topbar-dialog .pinned-site-editor-container .remove-pinned-site-link a, .topbar-dialog .modal-content .message-text h4 {
+        font-family: var(--ff-sans) !important;
+    }
+}
