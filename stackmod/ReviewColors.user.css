@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           Review colors
+@namespace      github.com/lunarwatcher/userstyles
+@version        1.0.0
+@description    Enhances mod tools with better colors
+@author         Olivia
+==/UserStyle== */
+
+@-moz-document domain("stackoverflow.com"), domain("stackexchange.com"), domain("askubuntu.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackapps.com"), domain("mathoverflow.net") {
+/* Comment flags */
+.s-btn[title="delete this comment"] {
+    color: green;
+}
+
+.s-btn[title="edit this comment"] {
+    color: purple;
+}
+
+.s-btn[title="dismiss the flags against this comment"] {
+    color: red;
+}
+
+.js-comment-link {
+    color: #ff69f2 !important;
+}
+
+.js-comment-link:hover {
+    color: #0978cd !important;
+}
+
+/* Other flags */
+.s-btn[data-title="Flag was helpful"] {
+    color: green;
+}
+
+.s-btn[data-title="Flag was not helpful"] {
+    color: red;
+}
+}
