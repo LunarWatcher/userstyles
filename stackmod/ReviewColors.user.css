@@ -36,4 +36,13 @@
 .s-btn[data-title="Flag was not helpful"] {
     color: red;
 }
+.mod-flag-indicator[title="Total annotations"] {
+    background: #ff69f2;
+}
+.mod-flag-indicator[title*="posts flagged"] {
+    background: #2b58bc;
+}
+.mod-flag-indicator[title*="community team"] {
+    background: #d82440;
+}
 }
