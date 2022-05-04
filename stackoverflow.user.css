@@ -32,12 +32,5 @@
     .top-bar, .topbar-dialog, #user-menu, .topbar-dialog .header h3 a, .topbar-dialog .pinned-site-editor-container .remove-pinned-site-link a, .topbar-dialog .modal-content .message-text h4 {
         font-family: var(--ff-sans) !important;
     }
-    body .post-text a:not(.post-tag):not(.badge-tag):visited,
-    body .comment-copy a:visited,
-    body .wmd-preview a:not(.post-tag):not(.badge-tag):visited,
-    body .question-hyperlink:visited,
-    body .answer-hyperlink:visited
-    {
-       color: #ff40e9;
-    }
+
 }
