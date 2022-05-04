@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name           Fix SO's fonts
+@name           Fix SO's styles
 @namespace      github.com/lunarwatcher/userstyles
-@version        1.0.0
-@description    Fix SO's fonts
+@version        1.0.1
+@description    Fix SO's styles
 @author         Olivia
 ==/UserStyle== */
 @-moz-document domain("stackoverflow.com"), domain("stackexchange.com"), domain("askubuntu.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackapps.com"), domain("mathoverflow.net") {
@@ -31,5 +31,13 @@
 
     .top-bar, .topbar-dialog, #user-menu, .topbar-dialog .header h3 a, .topbar-dialog .pinned-site-editor-container .remove-pinned-site-link a, .topbar-dialog .modal-content .message-text h4 {
         font-family: var(--ff-sans) !important;
+    }
+    body .post-text a:not(.post-tag):not(.badge-tag):visited,
+    body .comment-copy a:visited,
+    body .wmd-preview a:not(.post-tag):not(.badge-tag):visited,
+    body .question-hyperlink:visited,
+    body .answer-hyperlink:visited
+    {
+       color: #ff40e9;
     }
 }
