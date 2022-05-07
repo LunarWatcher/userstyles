@@ -33,4 +33,8 @@
         font-family: var(--ff-sans) !important;
     }
 
+    body.unified-theme {
+        --theme-post-title-color-visited: #ff72fc;
+        --theme-link-color-visited: var(--theme-post-title-color-visited);
+    }
 }
