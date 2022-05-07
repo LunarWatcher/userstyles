@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fix SO's styles
 @namespace      github.com/lunarwatcher/userstyles
-@version        1.0.2
+@version        1.0.3
 @description    Fix SO's styles
 @author         Olivia
 ==/UserStyle== */
@@ -36,5 +36,8 @@
     body.unified-theme {
         --theme-post-title-color-visited: #ff72fc;
         --theme-link-color-visited: var(--theme-post-title-color-visited);
+    }
+    .s-table a:visited {
+        color: var(--theme-post-title-color-visited);
     }
 }
