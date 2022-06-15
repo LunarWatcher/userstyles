@@ -1,15 +1,15 @@
 /* ==UserStyle==
 @name           Fix SO's styles
 @namespace      github.com/lunarwatcher/userstyles
-@version        1.0.3
+@version        1.0.4
 @description    Fix SO's styles
 @author         Olivia
 ==/UserStyle== */
 @-moz-document domain("stackoverflow.com"), domain("stackexchange.com"), domain("askubuntu.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackapps.com"), domain("mathoverflow.net") {
     body {
         --ff-sans:  Ubuntu, /* Prefer Ubuntu */
-                    Roboto, /* fall back to Roboto on Android */
-                    Cambria, /* Fall back to Cambria on Windows */
+                    Roboto, /* fall back to Roboto on Android -- this didn't age well, FF killed support and made everything ugly*/
+                    Helvetica, /* Fall back to Helvetica on Windows */
                     sans-serif;
 
         --ff-mono: "SauceCodePro Nerd Font", /* Prefer SauceCode */
