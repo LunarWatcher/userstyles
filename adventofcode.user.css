@@ -18,7 +18,7 @@
         color: #6e6e00;
     }
     .calendar {
-        color: #0f0f23;
+        background-color: #0f0f23 !important;
     }
     .supporter-badge:hover {
         color: #3c3c09 !important;
