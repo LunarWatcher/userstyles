@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Unofficial advent of code lightmode
 @namespace      github.com/LunarWatcher/userstyles
-@version        1.0.0
+@version        1.0.1
 @description    Unofficial and lazy light mode userstyle for most of the core of Advent of Code
 @author         Olivia
 ==/UserStyle== */
@@ -14,7 +14,7 @@
     main, div.user {
         color: #000;
     }
-    span.star-count, .supporter-badge, .stats-both, .leaderboard-daydesc-both {
+    span.star-count, .supporter-badge, .stats-both, .leaderboard-daydesc-both, .day-success {
         color: #6e6e00;
     }
     .supporter-badge:hover {
